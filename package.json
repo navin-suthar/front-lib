@@ -1,0 +1,28 @@
+{
+  "name": "ui-components-lib",
+  "version": "1.0.1",
+  "description": "awesome ui compoenets",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/navin-suthar/front-lib.git"
+  },
+  "keywords": [
+    "ui-components",
+    "frontend",
+    "css",
+    "js",
+    "color",
+    "background",
+    "animation"
+  ],
+  "author": "navin-solanki",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/navin-suthar/front-lib/issues"
+  },
+  "homepage": "https://github.com/navin-suthar/front-lib#readme"
+}
