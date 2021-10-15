@@ -1,4 +1,4 @@
-# Hi All  I Am Navin <img src="git-assets/hello.gif" height="30px">
+# Hi All  I Am Navin <img src="img/hello.gif" height="30px">
 
 i am create 'ui-component' framework it free and open for all . any one can use and update it according to there requirement .
 
