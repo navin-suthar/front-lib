@@ -16,18 +16,18 @@ git clone https://github.com/navin-suthar/front-lib.git
 
 git checkout command lets you navigate between the branches created by git branch .
 ```
-git checkout master
+git checkout main
 ```
 
 git pull command is used to fetch and download content from a remote repository and immediately update the local repository to match that content. 
 
 ```
-git pull origin master
+git pull origin main
 ```
 
 git push command is used to upload local repository content to a remote repository.
 ```
-git push origin master
+git push origin main
 ```
 
 
