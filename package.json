@@ -1,6 +1,6 @@
 {
-  "name": "ui-components-lib",
-  "version": "1.0.1",
+  "name": "ui-components-libs",
+  "version": "1.0.3",
   "description": "awesome ui compoenets",
   "main": "index.js",
   "scripts": {

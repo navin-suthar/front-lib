@@ -17,78 +17,1136 @@
   --type16-bg-img: linear-gradient(135deg, rgb(250, 124, 187), rgb(241, 70, 88));
   --type17-bg-img: linear-gradient(135deg, rgb(115, 125, 254), rgb(255, 202, 201));
   --type18-bg-img: linear-gradient(135deg, rgb(47, 128, 237), rgb(178, 255, 218));
+  --type19-bg-img: radial-gradient(circle at 10% 20%, rgb(14, 174, 87) 0%, rgb(12, 116, 117) 90%);
+  --type20-bg-img:radial-gradient(circle at 10% 20%, rgb(255, 209, 67) 0%, rgb(255, 145, 83) 90%);
+  --type21-bg-img:radial-gradient(860px at 11.8% 33.5%, rgb(240, 30, 92) 0%, rgb(244, 49, 74) 30.5%, rgb(249, 75, 37) 56.1%, rgb(250, 88, 19) 75.6%, rgb(253, 102, 2) 100.2%);
+  --type22-bg-img:radial-gradient(circle at 50.7% 54%, rgb(204, 254, 152) 0%, rgb(229, 253, 190) 92.4%);
+  --type23-bg-img:radial-gradient(circle at 10% 20%, rgb(147, 67, 67) 0%, rgb(111, 27, 27) 90%);
+  --type24-bg-img:radial-gradient(610px at 5.2% 51.6%, rgb(5, 8, 114) 0%, rgb(7, 3, 53) 97.5%);
+  --type25-bg-img:radial-gradient(circle at 10.2% 55.8%, rgb(252, 37, 103) 0%, rgb(250, 38, 151) 46.2%, rgb(186, 8, 181) 90.1%);
+  --type26-bg-img:radial-gradient(circle at 10% 20%, rgb(97, 186, 255) 0%, rgb(166, 239, 253) 90.1%);
+  --type27-bg-img:linear-gradient(68.3deg, rgb(245, 177, 97) 0.4%, rgb(236, 54, 110) 100.2%);
+  --type28-bg-img:radial-gradient(588px at 31.7% 40.2%, rgb(225, 200, 239) 21.4%, rgb(163, 225, 233) 57.1%);
+  --type29-bg-img:linear-gradient(109.6deg, rgb(61, 245, 167) 11.2%, rgb(9, 111, 224) 91.1%);
+  --type30-bg-img:radial-gradient(circle at 10% 20%, rgb(255, 94, 247) 17.8%, rgb(2, 245, 255) 100.2%);
+  --type31-bg-img:radial-gradient(976px at 51.2% 51%, rgb(11, 27, 103) 0%, rgb(16, 66, 157) 0%, rgb(11, 27, 103) 17.3%, rgb(11, 27, 103) 58.8%, rgb(11, 27, 103) 71.4%, rgb(16, 66, 157) 100.2%, rgb(187, 187, 187) 100.2%);
+  --type32-bg-img:linear-gradient(117deg, rgb(123, 216, 96) 39.2%, rgb(255, 255, 255) 156.2%);
+  --type33-bg-img:linear-gradient(109.6deg, rgb(45, 116, 213) 11.2%, rgb(121, 137, 212) 91.2%);
+  --type34-bg-img:linear-gradient(109.6deg, rgb(209, 0, 116) 11.2%, rgb(110, 44, 107) 91.1%);
+  --type35-bg-img:linear-gradient(64.5deg, rgb(245, 116, 185) 14.7%, rgb(89, 97, 223) 88.7%);
+  --type36-bg-img:linear-gradient(358.4deg, rgb(249, 151, 119) -2.1%, rgb(98, 58, 162) 90%);
+  --type37-bg-img:linear-gradient(132.6deg, rgb(71, 139, 214) 23.3%, rgb(37, 216, 211) 84.7%);
+  --type38-bg-img:linear-gradient(129.1deg, rgb(243, 199, 83) 26.8%, rgb(18, 235, 207) 114.1%);
+  --type39-bg-img:radial-gradient(circle at 10% 20%, rgb(171, 102, 255) 0%, rgb(116, 182, 247) 90%);
+  --type40-bg-img:linear-gradient(134.6deg, rgb(201, 37, 107) 15.4%, rgb(116, 16, 124) 74.7%);
+  --type41-bg-img:radial-gradient(circle at 10% 20%, rgba(37, 145, 251, 0.98) 0.1%, rgb(0, 7, 128) 99.8%);
+  --type42-bg-img:linear-gradient(109.6deg, rgb(255, 179, 189) 1.8%, rgb(254, 248, 154) 50.6%, rgb(161, 224, 186) 100.3%);
+  --type43-bg-img: radial-gradient(circle at 10% 20%, rgb(0, 152, 155) 0.1%, rgb(0, 94, 120) 94.2%);
+  --type44-bg-img:radial-gradient(685.3px at 47.8% 55.1%, rgb(255, 99, 152) 0%, rgb(251, 213, 149) 90.1%);
+  --type45-bg-img:linear-gradient(109.6deg, rgb(247, 253, 166) 11.2%, rgb(128, 255, 221) 57.8%, rgb(255, 128, 249) 85.9%);
+  --type46-bg-img: linear-gradient(180.4deg, rgb(188, 120, 236) -2.2%, rgb(29, 133, 163) 83.5%);
+  --type47-bg-img:radial-gradient(circle at 14.2% 24%, rgb(239, 61, 78) 0%, rgba(239, 61, 78, 0.81) 51.8%, rgba(239, 61, 78, 0.63) 84.6%);
+  --type48-bg-img:linear-gradient(99deg, rgb(115, 18, 81) 10.6%, rgb(28, 28, 28) 118%);
+  --type49-bg-img:linear-gradient(109.6deg, rgb(245, 56, 56) 11.2%, rgb(234, 192, 117) 78%);
+  --type50-bg-img:linear-gradient(109.6deg, rgb(118, 12, 99) 11.2%, rgb(71, 11, 75) 98.6%);
+  --type51-bg-img:linear-gradient(73.1deg, rgb(34, 126, 34) 8%, rgb(99, 162, 17) 86.9%);
+  --type52-bg-img:linear-gradient(179.4deg, rgb(132, 56, 122) 14.6%, rgb(190, 24, 49) 104.7%);
+  --type53-bg-img:radial-gradient(circle at 7.2% 13.6%, rgb(37, 249, 245) 0%, rgb(8, 70, 218) 90%);
+  --type54-bg-img:radial-gradient(489px at 49.3% 46.6%, rgb(255, 214, 126) 0%, rgb(253, 200, 0) 100.2%);
+  --type55-bg-img:radial-gradient(874px at 9.8% 8%, rgb(255, 20, 175) 0%, rgb(22, 22, 22) 58.4%);
+  --type56-bg-img:linear-gradient(109.6deg, rgb(231, 76, 60) 11.2%, rgb(203, 67, 53) 91.1%);
+  --type57-bg-img:radial-gradient(circle at 10% 20%, rgb(247, 87, 0) 0%, rgb(249, 0, 0) 90.1%)
+  --type58-bg-img:radial-gradient(957px at 8.7% 50.5%, rgb(246, 191, 13) 0%, rgb(249, 47, 47) 90%);
+  --type59-bg-img:linear-gradient(178.9deg, rgb(176, 57, 105) 5.1%, rgb(229, 113, 159) 109.3%);
+  --type60-bg-img:linear-gradient(106.9deg, rgb(148, 14, 60) 60.9%, rgb(3, 22, 27) 122.3%);
+  --type61-bg-img:linear-gradient(96.5deg, rgb(39, 103, 187) 10.4%, rgb(16, 72, 144) 87.7%);
+  --type62-bg-img:radial-gradient(905.6px at 4.9% 7.9%, rgb(218, 0, 0) 14.1%, rgb(168, 2, 144) 65%, rgb(102, 2, 110) 90%);
+  --type63-bg-img:radial-gradient(circle at 10% 20%, rgb(245, 0, 87) 0%, rgb(185, 1, 81) 90%);
+  --type64-bg-img:radial-gradient(circle at -4.5% 34.3%, rgb(13, 20, 174) 0%, rgb(243, 165, 140) 90%);
+  --type65-bg-img:radial-gradient(941px at 2.6% 6.8%, rgba(124, 74, 228, 0.81) 15.9%, rgba(249, 208, 40, 0.7) 88.6%);
+  --type66-bg-img:radial-gradient(circle at 10% 20%, rgb(0, 221, 214) 0%, rgb(51, 102, 255) 90%);
+  --type67-bg-img:linear-gradient(108deg, rgb(242, 245, 139) 17.7%, rgba(148, 197, 20, 0.68) 91.2%);
+  --type68-bg-img:radial-gradient(circle at 10% 20%, rgb(162, 102, 246) 0%, rgb(203, 159, 249) 90%);
+  --type69-bg-img:linear-gradient(89.4deg, rgb(194, 0, 39) 0.8%, rgb(10, 35, 104) 99.4%);
+  --type70-bg-img:linear-gradient(89.9deg, rgb(255, 243, 110) 16.9%, rgb(30, 204, 214) 55.1%, rgb(5, 54, 154) 90.7%);
+  --type71-bg-img:radial-gradient(1259px at 2.8% 48.8%, rgb(255, 243, 110) 0%, rgb(30, 204, 214) 45.6%, rgb(5, 54, 154) 65.9%);
+  --type72-bg-img:linear-gradient(103.3deg, rgb(252, 225, 208) 30%, rgb(255, 173, 214) 55.7%, rgb(162, 186, 245) 81.8%);
+  --type73-bg-img:radial-gradient(420px at -10.9% -25.7%, rgb(223, 5, 5) 0%, rgb(235, 244, 60) 90.5%)
+  --type74-bg-img:radial-gradient(674px at 18.3% 77%, rgb(139, 186, 244) 3.4%, rgb(15, 51, 92) 56.6%);
+  --type75-bg-img:radial-gradient(circle at 32.7% 82.7%, rgb(173, 0, 171) 8.3%, rgb(15, 51, 92) 79.4%);
+  --type76-bg-img: radial-gradient(circle at 83.7% 4.3%, rgb(173, 0, 171) 0%, rgb(15, 51, 92) 90%);
+  --type77-bg-img:radial-gradient(780.6px at 10% 20%, rgb(133, 255, 189) 0%, rgb(255, 251, 125) 90.7%);
+  --type78-bg-img:linear-gradient(105.5deg, rgb(31, 212, 248) 11%, rgb(218, 15, 183) 74.9%);
+  --type79-bg-img:linear-gradient(63.1deg, rgb(5, 23, 111) 16.4%, rgb(24, 95, 240) 64.5%);
+  --type80-bg-img:radial-gradient(circle at 10% 20%, rgb(235, 131, 130) 0%, rgba(235, 131, 130, 0.75) 38.6%, rgba(211, 177, 125, 0.52) 72.1%, rgba(211, 177, 125, 0.24) 94.7%);
+  --type81-bg-img:linear-gradient(180.5deg, rgb(46, 255, 171) 12.3%, rgba(252, 251, 222, 0.46) 92%);
+  --type82-bg-img:linear-gradient(109.6deg, rgb(24, 138, 141) 11.2%, rgb(96, 221, 142) 91.1%);
+  --type83-bg-img:linear-gradient(126.3deg, rgb(30, 2, 83) 32.2%, rgba(198, 55, 160, 0.46) 109.2%);
+  --type84-bg-img:linear-gradient(110.1deg, rgb(30, 2, 83) 44.2%, rgb(198, 55, 160) 138.2%);
+  --type85-bg-img:linear-gradient(92.7deg, rgb(245, 212, 212) 8.5%, rgb(252, 251, 224) 90.2%);
+  --type86-bg-img:linear-gradient(109.6deg, rgb(15, 2, 2) 11.2%, rgb(36, 163, 190) 91.1%);
+  --type87-bg-img:linear-gradient(109.6deg, rgb(62, 161, 219) 11.2%, rgb(93, 52, 236) 100.2%);
+  --type88-bg-img:radial-gradient(759px at -6.7% 50%, rgb(80, 131, 73) 0%, rgb(140, 209, 131) 26.2%, rgb(178, 231, 170) 50.6%, rgb(144, 213, 135) 74.1%, rgb(75, 118, 69) 100.3%);
+  --type89-bg-img:radial-gradient(597px at 93% 9.8%, rgb(255, 61, 89) 1.7%, rgb(252, 251, 44) 97%);
+  --type90-bg-img:linear-gradient(68.2deg, rgb(255, 202, 88) 0%, rgb(139, 73, 255) 100.2%);
+  --type91-bg-img:linear-gradient(90.5deg, rgba(255, 207, 139, 0.5) 1.1%, rgb(255, 207, 139) 81.3%);
+  --type92-bg-img:linear-gradient(109.9deg, rgb(251, 189, 100) 1.8%, rgb(255, 207, 139) 95.4%);
+  --type93-bg-img:linear-gradient(179.4deg, rgb(33, 150, 243) 1.8%, rgba(22, 255, 245, 0.6) 97.1%);
+  --type94-bg-img:radial-gradient(circle at 10% 20%, rgb(161, 255, 255) 11.3%, rgb(6, 255, 255) 41.2%, rgb(0, 216, 216) 77.8%);
+  --type95-bg-img:linear-gradient(0.2deg, rgb(252, 220, 115) -13.1%, rgb(252, 194, 115) 31.9%, rgb(241, 84, 84) 69.6%);
+  --type96-bg-img:linear-gradient(178.2deg, rgb(118, 8, 23) 10.9%, rgb(158, 12, 33) 62.6%);
+  --type97-bg-img:linear-gradient(69.7deg, rgb(244, 37, 243) 1.4%, rgb(244, 87, 1) 36.2%, rgb(255, 204, 37) 72.2%, rgb(20, 196, 6) 113%);
+  --type98-bg-img:linear-gradient(89.8deg, rgb(222, 74, 74) 4.7%, rgb(30, 29, 29) 120.3%);
+  --type99-bg-img:linear-gradient(108.9deg, rgb(251, 140, 0) 11.2%, rgb(0, 139, 155) 88.9%);
+  --type100-bg-img:linear-gradient(113.3deg, rgb(217, 9, 27) 6.9%, rgb(22, 68, 150) 75%);
+  --type101-bg-img:radial-gradient(circle at 16.5% 28.1%, rgb(15, 27, 49) 0%, rgb(0, 112, 218) 90%);
+  --type102-bg-img:linear-gradient(112.7deg, rgb(253, 185, 83) 11.4%, rgb(255, 138, 0) 70.2%);
+  --type103-bg-img:linear-gradient(109.6deg, rgb(254, 87, 98) 11.2%, rgb(255, 107, 161) 99.1%);
+  --type104-bg-img:linear-gradient(109.6deg, rgb(39, 142, 255) 11.2%, rgba(98, 113, 255, 0.78) 100.2%);
+  --type105-bg-img:linear-gradient(109.6deg, rgb(255, 174, 0) 11.2%, rgb(255, 0, 0) 100.2%);
+  --type106-bg-img:linear-gradient(102.1deg, rgb(96, 221, 142) 8.7%, rgb(24, 138, 141) 88.1%);
+  --type107-bg-img:radial-gradient(602px at 2.1% 5.1%, rgb(233, 0, 120) 0%, rgb(0, 0, 0) 90.1%);
+  --type108-bg-img:radial-gradient(911px at 0.4% 50.5%, rgb(187, 68, 48) 18.7%, rgb(21, 30, 33) 90%);
+  --type109-bg-img:linear-gradient(105.3deg, rgb(30, 39, 107) 21.8%, rgb(77, 118, 221) 100.2%);
+  --type110-bg-img:radial-gradient(732px at -23.9% -25.1%, rgb(30, 39, 107) 6.1%, rgb(188, 104, 142) 100.2%);
+  --type111-bg-img:linear-gradient(111.2deg, rgb(232, 5, 5) 1.7%, rgb(245, 49, 191) 98.7%);
+  --type112-bg-img:linear-gradient(181deg, rgb(225, 109, 245) 6.9%, rgb(78, 248, 231) 112.8%);
+  --type113-bg-img:linear-gradient(183.5deg, rgb(244, 173, 6) 18.6%, rgb(229, 251, 31) 119.9%);
+  --type114-bg-img:linear-gradient(65.9deg, rgb(85, 228, 224) 5.5%, rgba(75, 68, 224, 0.74) 54.2%, rgb(64, 198, 238) 55.2%, rgb(177, 36, 224) 98.4%);
+  --type115-bg-img:linear-gradient(67.2deg, rgb(37, 208, 199) -7.5%, rgb(165, 90, 240) 62.7%);
+  --type116-bg-img:linear-gradient(67.2deg, rgb(37, 208, 199) -7.5%, rgb(165, 90, 240) 62.7%);
+  --type117-bg-img:radial-gradient(300px at 8% 89.3%, rgb(20, 157, 208) 0%, rgb(140, 63, 226) 90%);
+  --type118-bg-img:linear-gradient(109.6deg, rgb(116, 18, 203) 11.2%, rgb(230, 46, 131) 91.2%);
+  --type119-bg-img:linear-gradient(110.5deg, rgb(71, 114, 148) 14.9%, rgb(149, 245, 211) 77.9%);
+  --type120-bg-img:linear-gradient(94.3deg, rgb(26, 33, 64) 10.9%, rgb(81, 84, 115) 87.1%);
+  --type121-bg-img:linear-gradient(293.5deg, rgb(181, 149, 208) 3.2%, rgb(251, 148, 207) 9.9%, rgb(181, 149, 208) 22.9%, rgb(251, 148, 207) 36.4%, rgb(181, 149, 208) 50.1%, rgb(251, 148, 207) 61.1%, rgb(181, 149, 208) 71.2%, rgb(251, 148, 207) 84.2%, rgb(181, 149, 208) 92.2%);
+  --type122-bg-img:linear-gradient(76.3deg, rgb(44, 62, 78) 12.6%, rgb(69, 103, 131) 82.8%);
+  --type123-bg-img:linear-gradient(97.3deg, rgba(25, 50, 70, 0.81) 10.7%, rgba(155, 65, 25, 0.72) 39.5%, rgba(255, 192, 0, 0.81) 69.7%);
+  --type124-bg-img:linear-gradient(rgb(155, 254, 23) 45.5%, rgb(36, 243, 8) 97.9%);
+  --type125-bg-img:linear-gradient(359.8deg, rgb(252, 255, 222) 2.2%, rgb(182, 241, 171) 99.3%);
+  --type126-bg-img:linear-gradient(111.5deg, rgb(254, 210, 255) -7.2%, rgb(115, 9, 112) 100.2%);
+  --type127-bg-img:linear-gradient(72.1deg, rgb(0, 0, 128) 1.7%, rgb(100, 149, 237) 99.1%);
+  --type128-bg-img:linear-gradient(106.1deg, rgba(69, 242, 143, 0.52) 10.2%, rgba(14, 228, 175, 0.61) 83.6%);
+  --type129-bg-img:linear-gradient(109.6deg, rgb(33, 103, 43) 11.3%, rgb(117, 162, 61) 91.1%);
+  --type130-bg-img:linear-gradient(109.6deg, rgb(96, 221, 142) 11.2%, rgb(24, 138, 141) 91.1%);
+  --type131-bg-img:radial-gradient(circle at 10% 20%, rgb(0, 84, 166) 0%, rgb(132, 189, 201) 90%);
+  --type131-bg-img:radial-gradient(circle at 10% 20%, rgb(100, 130, 159) 0%, rgb(103, 56, 96) 90%);
+  --type132-bg-img:linear-gradient(358.7deg, rgb(42, 136, 157) 1.7%, rgb(122, 197, 214) 51.1%, rgb(211, 232, 242) 95.5%);
+  --type133-bg-img:radial-gradient(935px at 3.1% 5.8%, rgb(182, 255, 139) 0%, rgb(8, 88, 127) 100.2%);
+  --type134-bg-img:linear-gradient(109.6deg, rgb(0, 191, 165) 11.2%, rgb(0, 140, 122) 100.2%);
+  --type135-bg-img:linear-gradient(110.3deg, rgb(73, 93, 109) 4.3%, rgb(49, 55, 82) 96.7%);
+  --type136-bg-img:radial-gradient(627px at 16.2% 74.3%, rgb(57, 145, 204) 89.9%, rgb(187, 187, 187) 90%);
+  --type137-bg-img:linear-gradient(109.6deg, rgb(255, 115, 68) 11.2%, rgb(244, 255, 32) 100.6%);
+  --type138-bg-img:linear-gradient(76.9deg, rgb(255, 90, 90) 27.2%, rgb(130, 5, 255) 79.9%);
+  --type139-bg-img:linear-gradient(109.6deg, rgb(5, 84, 94) 16%, rgb(187, 187, 187) 91.1%);
+  --type140-bg-img:linear-gradient(111.6deg, rgb(174, 68, 223) 27.3%, rgb(246, 135, 135) 112.7%);
+  --type141-bg-img:linear-gradient(109.6deg, rgb(255, 219, 47) 11.2%, rgb(244, 253, 0) 100.2%);
+  --type142-bg-img:radial-gradient(circle at 10% 20%, rgb(255, 229, 168) 0%, rgb(251, 174, 222) 100.7%);
+  --type143-bg-img:linear-gradient(109.5deg, rgb(229, 233, 177) 11.2%, rgb(223, 205, 187) 100.2%);
+  --type144-bg-img:radial-gradient(circle at 10% 20%, rgb(153, 103, 186) 41.2%, rgb(0, 113, 227) 90%);
+  --type145-bg-img:linear-gradient(109.6deg, rgb(238, 58, 136) 11.2%, rgb(128, 162, 245) 91.1%);
+  --type146-bg-img:linear-gradient(109.6deg, rgb(121, 203, 202) 11.2%, rgb(119, 161, 211) 91.1%);
+  --type147-bg-img:radial-gradient(755px at 10.1% 95.3%, rgb(242, 188, 141) 0%, rgb(242, 159, 141) 100.2%);
+  --type148-bg-img:radial-gradient(929px at 0.6% 1.3%, rgb(248, 251, 10) 0%, rgb(248, 47, 47) 82.6%);
+  --type149-bg-img:linear-gradient(110.1deg, rgb(34, 126, 34) 2.9%, rgb(168, 251, 60) 90.3%);
+  --type150-bg-img:radial-gradient(465px at -15.1% -25%, rgb(17, 130, 193) 0%, rgb(67, 166, 238) 49%, rgb(126, 203, 244) 90.2%);
+  --type151-bg-img: radial-gradient(422px at -10.3% 110.7%, rgb(219, 76, 180) 9.5%, rgb(231, 119, 209) 50.8%, rgb(255, 180, 241) 88.5%);
+  --type152-bg-img:radial-gradient(circle at -0.1% 1.8%, rgba(255, 77, 77, 0.7) 0%, rgba(255, 184, 129, 0.34) 100.2%);
+  --type153-bg-img:linear-gradient(102.3deg, rgb(147, 39, 143) 5.9%, rgb(234, 172, 232) 64%, rgb(246, 219, 245) 89%);
+  --type154-bg-img:linear-gradient(109.6deg, rgb(48, 207, 208) 11.2%, rgb(51, 8, 103) 92.5%);
+  --type155-bg-img:radial-gradient(circle at 10% 20%, rgb(253, 101, 133) 0%, rgb(255, 211, 165) 90%);
+  --type156-bg-img:linear-gradient(110.6deg, rgb(179, 157, 219) 7%, rgb(150, 159, 222) 47.7%, rgb(24, 255, 255) 100.6%);
+  --type157-bg-img:linear-gradient(143.3deg, rgb(216, 27, 96) 33.1%, rgb(237, 107, 154) 74.9%);
+  --type158-bg-img:linear-gradient(100.5deg, rgb(148, 146, 236) 17.7%, rgb(245, 194, 194) 76.1%);
+  --type159-bg-img:radial-gradient(321px at 8.3% 75.7%, rgb(209, 247, 241) 0%, rgb(249, 213, 213) 81%);
+  --type160-bg-img:linear-gradient(109.6deg, rgb(177, 173, 219) 11.2%, rgb(245, 226, 226) 91.1%);
+  --type161-bg-img: linear-gradient(359deg, rgb(150, 192, 255) -17.7%, rgb(255, 180, 161) 101.5%);
+  --type162-bg-img:radial-gradient(1294px at -15.5% 23.8%, rgb(255, 206, 149) 0%, rgb(247, 92, 92) 44.9%, rgba(108, 0, 96, 0.97) 93.8%);
+  --type163-bg-img:radial-gradient(circle at 10% 20%, rgb(147, 230, 241) 0%, rgb(145, 192, 241) 45.5%);
+  --type164-bg-img:radial-gradient(344px at 1.4% 0%, rgb(242, 185, 252) 19.3%, rgb(250, 254, 190) 80.7%);
+  --type165-bg-img:radial-gradient(344px at 1.4% 0%, rgb(242, 185, 252) 19.3%, rgb(250, 254, 190) 80.7%);
+  --type166-bg-img:radial-gradient(circle at 10% 20%, rgb(255, 37, 174) 0%, rgb(241, 147, 55) 53.4%, rgb(250, 237, 56) 99.5%);
+  --type167-bg-img: linear-gradient(112.4deg, rgb(169, 28, 115) 21.6%, rgb(219, 112, 54) 92.2%);
+  --type168-bg-img:linear-gradient(292.9deg, rgb(254, 105, 241) 28.8%, rgb(182, 44, 248) 70.4%);
+  --type168-bg-img:radial-gradient(circle at 3.1% 8.2%, rgb(248, 250, 107) 0%, rgb(238, 148, 148) 98.2%);
+  --type169-bg-img:radial-gradient(972.6px at 10% 20%, rgb(243, 0, 75) 0%, rgb(255, 93, 75) 90%);
+  --type170-bg-img:radial-gradient(691px at 23.3% 17.5%, rgba(241, 122, 59, 0.91) 0%, rgb(249, 224, 196) 72.3%);
+  --type171-bg-img:radial-gradient(880px at -0.7% 57.1%, rgb(202, 149, 149) 0%, rgb(239, 215, 177) 14.3%, rgb(239, 239, 177) 27.4%, rgb(191, 239, 177) 40.1%, rgb(177, 239, 217) 48.7%, rgb(177, 238, 239) 56.7%, rgb(177, 180, 239) 73.2%, rgb(224, 177, 239) 89.8%, rgb(239, 177, 231) 100.2%);
+  --type172-bg-img:linear-gradient(89.8deg, rgb(204, 156, 223) 0.3%, rgb(155, 219, 245) 20.4%, rgb(245, 183, 208) 40.2%, rgb(250, 186, 98) 62.9%, rgb(234, 238, 240) 81.9%, rgb(250, 245, 171) 99.2%);
+  --type173-bg-img:linear-gradient(90deg, rgb(255, 157, 129) 24.3%, rgb(255, 78, 78) 78.3%);
+  --type174-bg-img:radial-gradient(939px at 94.7% 50%, rgb(0, 178, 169) 0%, rgb(0, 106, 101) 76.9%);
+  --type175-bg-img:linear-gradient(109.6deg, rgb(255, 24, 134) 11.2%, rgb(252, 232, 68) 52%, rgb(53, 178, 239) 100.2%);
+  --type176-bg-img:linear-gradient(181.3deg, rgb(134, 15, 15) 24.9%, rgb(183, 10, 10) 46.9%, rgb(210, 70, 0) 85.1%);
+  --type177-bg-img:radial-gradient(circle at 10% 20%, rgb(255, 236, 231) 0%, rgb(255, 143, 108) 90.1%);
+  --type178-bg-img:linear-gradient(112.1deg, rgb(32, 38, 57) 11.4%, rgb(63, 76, 119) 70.2%);
+  --type179-bg-img: radial-gradient(circle at 10% 20%, rgb(130, 205, 221) 0%, rgb(255, 247, 153) 90%);
+  --type180-bg-img:radial-gradient(circle at 14.2% 27.5%, rgb(104, 199, 255) 0%, rgb(181, 126, 255) 90%);
+  --type181-bg-img:linear-gradient(268deg, rgb(255, 105, 180) 4.1%, rgb(255, 174, 215) 74.3%);
+  --type182-bg-img:linear-gradient(44.8deg, rgba(255, 136, 102, 0.67) -53.1%, rgba(255, 221, 136, 0.28) 49%);
+  --type183-bg-img:linear-gradient(358.3deg, rgb(255, 82, 168) 12.9%, rgb(177, 118, 240) 134.3%);
+  --type184-bg-img: radial-gradient(590px at 8.2% 13.8%, rgb(18, 35, 60) 0%, rgb(187, 187, 187) 90%);
+  --type185-bg-img:radial-gradient(circle at 5.6% 54.5%, rgb(47, 71, 79) 0%, rgb(159, 188, 198) 83.6%)
+  --type186-bg-img:linear-gradient(111.1deg, rgb(0, 40, 70) -4.8%, rgb(255, 115, 115) 82.7%, rgb(255, 175, 123) 97.2%);
+  --type187-bg-img:linear-gradient(153.4deg, rgb(160, 250, 141) 25.4%, rgb(253, 217, 182) 59%);
+  --type188-bg-img:radial-gradient(circle at 10% 20%, rgb(174, 24, 255) 0%, rgb(246, 134, 255) 90%);
+  --type189-bg-img:radial-gradient(circle at -1% 57.5%, rgb(19, 170, 82) 0%, rgb(0, 102, 43) 90%);
+  --type190-bg-img:linear-gradient(109.6deg, rgb(9, 9, 121) 11.2%, rgb(144, 6, 161) 53.7%, rgb(0, 212, 255) 100.2%);
+  --type191-bg-img:linear-gradient(109.6deg, rgb(104, 183, 249) 31.3%, rgb(176, 248, 200) 100.2%);
+  --type192-bg-img:radial-gradient(1173px at -3.5% -4.8%, rgb(255, 140, 16) 8.4%, rgb(255, 26, 26) 20.6%, rgb(0, 64, 249) 46.7%, rgb(131, 201, 8) 69.6%, rgb(255, 230, 28) 84.7%);
 }
 
 
-  .type1-bg-img{
+ 
+.type1-bg-img{
     background-image:var(--type1-bg-img);
   }
-  
- .type2-bg-img{
+
+ 
+.type2-bg-img{
     background-image:var(--type2-bg-img);
   }
-  
- .type3-bg-img{
+
+ 
+.type3-bg-img{
     background-image:var(--type3-bg-img);
   }
-  
- .type4-bg-img{
+
+ 
+.type4-bg-img{
     background-image:var(--type4-bg-img);
   }
-  
- .type5-bg-img{
+
+ 
+.type5-bg-img{
     background-image:var(--type5-bg-img);
   }
-  
- .type6-bg-img{
+
+ 
+.type6-bg-img{
     background-image:var(--type6-bg-img);
   }
-  
- .type7-bg-img{
+
+ 
+.type7-bg-img{
     background-image:var(--type7-bg-img);
   }
-  
- .type8-bg-img{
+
+ 
+.type8-bg-img{
     background-image:var(--type8-bg-img);
   }
-  
- .type9-bg-img{
+
+ 
+.type9-bg-img{
     background-image:var(--type9-bg-img);
   }
-  
- .type10-bg-img{
+
+ 
+.type10-bg-img{
     background-image:var(--type10-bg-img);
   }
-  
- .type11-bg-img{
+
+ 
+.type11-bg-img{
     background-image:var(--type11-bg-img);
   }
-  
- .type12-bg-img{
+
+ 
+.type12-bg-img{
     background-image:var(--type12-bg-img);
   }
-  
- .type13-bg-img{
+
+ 
+.type13-bg-img{
     background-image:var(--type13-bg-img);
   }
-  
- .type14-bg-img{
+
+ 
+.type14-bg-img{
     background-image:var(--type14-bg-img);
   }
-  
- .type15-bg-img{
+
+ 
+.type15-bg-img{
     background-image:var(--type15-bg-img);
   }
-  
- .type16-bg-img{
+
+ 
+.type16-bg-img{
     background-image:var(--type16-bg-img);
   }
-  
- .type17-bg-img{
+
+ 
+.type17-bg-img{
     background-image:var(--type17-bg-img);
   }
-  
- .type18-bg-img{
+
+ 
+.type18-bg-img{
     background-image:var(--type18-bg-img);
   }
 
+ 
+.type19-bg-img{
+    background-image:var(--type19-bg-img);
+  }
+
+ 
+.type20-bg-img{
+    background-image:var(--type20-bg-img);
+  }
+
+ 
+.type21-bg-img{
+    background-image:var(--type21-bg-img);
+  }
+
+ 
+.type22-bg-img{
+    background-image:var(--type22-bg-img);
+  }
+
+ 
+.type23-bg-img{
+    background-image:var(--type23-bg-img);
+  }
+
+ 
+.type24-bg-img{
+    background-image:var(--type24-bg-img);
+  }
+
+ 
+.type25-bg-img{
+    background-image:var(--type25-bg-img);
+  }
+
+ 
+.type26-bg-img{
+    background-image:var(--type26-bg-img);
+  }
+
+ 
+.type27-bg-img{
+    background-image:var(--type27-bg-img);
+  }
+
+ 
+.type28-bg-img{
+    background-image:var(--type28-bg-img);
+  }
+
+ 
+.type29-bg-img{
+    background-image:var(--type29-bg-img);
+  }
+
+ 
+.type30-bg-img{
+    background-image:var(--type30-bg-img);
+  }
+
+ 
+.type31-bg-img{
+    background-image:var(--type31-bg-img);
+  }
+
+ 
+.type32-bg-img{
+    background-image:var(--type32-bg-img);
+  }
+
+ 
+.type33-bg-img{
+    background-image:var(--type33-bg-img);
+  }
+
+ 
+.type34-bg-img{
+    background-image:var(--type34-bg-img);
+  }
+
+ 
+.type35-bg-img{
+    background-image:var(--type35-bg-img);
+  }
+
+ 
+.type36-bg-img{
+    background-image:var(--type36-bg-img);
+  }
+
+ 
+.type37-bg-img{
+    background-image:var(--type37-bg-img);
+  }
+
+ 
+.type38-bg-img{
+    background-image:var(--type38-bg-img);
+  }
+
+ 
+.type39-bg-img{
+    background-image:var(--type39-bg-img);
+  }
+
+ 
+.type40-bg-img{
+    background-image:var(--type40-bg-img);
+  }
+
+ 
+.type41-bg-img{
+    background-image:var(--type41-bg-img);
+  }
+
+ 
+.type42-bg-img{
+    background-image:var(--type42-bg-img);
+  }
+
+ 
+.type43-bg-img{
+    background-image:var(--type43-bg-img);
+  }
+
+ 
+.type44-bg-img{
+    background-image:var(--type44-bg-img);
+  }
+
+ 
+.type45-bg-img{
+    background-image:var(--type45-bg-img);
+  }
+
+ 
+.type46-bg-img{
+    background-image:var(--type46-bg-img);
+  }
+
+ 
+.type47-bg-img{
+    background-image:var(--type47-bg-img);
+  }
+
+ 
+.type48-bg-img{
+    background-image:var(--type48-bg-img);
+  }
+
+ 
+.type49-bg-img{
+    background-image:var(--type49-bg-img);
+  }
+
+ 
+.type50-bg-img{
+    background-image:var(--type50-bg-img);
+  }
+
+ 
+.type51-bg-img{
+    background-image:var(--type51-bg-img);
+  }
+
+ 
+.type52-bg-img{
+    background-image:var(--type52-bg-img);
+  }
+
+ 
+.type53-bg-img{
+    background-image:var(--type53-bg-img);
+  }
+
+ 
+.type54-bg-img{
+    background-image:var(--type54-bg-img);
+  }
+
+ 
+.type55-bg-img{
+    background-image:var(--type55-bg-img);
+  }
+
+ 
+.type56-bg-img{
+    background-image:var(--type56-bg-img);
+  }
+
+ 
+.type57-bg-img{
+    background-image:var(--type57-bg-img);
+  }
+
+ 
+.type58-bg-img{
+    background-image:var(--type58-bg-img);
+  }
+
+ 
+.type59-bg-img{
+    background-image:var(--type59-bg-img);
+  }
+
+ 
+.type60-bg-img{
+    background-image:var(--type60-bg-img);
+  }
+
+ 
+.type61-bg-img{
+    background-image:var(--type61-bg-img);
+  }
+
+ 
+.type62-bg-img{
+    background-image:var(--type62-bg-img);
+  }
+
+ 
+.type63-bg-img{
+    background-image:var(--type63-bg-img);
+  }
+
+ 
+.type64-bg-img{
+    background-image:var(--type64-bg-img);
+  }
+
+ 
+.type65-bg-img{
+    background-image:var(--type65-bg-img);
+  }
+
+ 
+.type66-bg-img{
+    background-image:var(--type66-bg-img);
+  }
+
+ 
+.type67-bg-img{
+    background-image:var(--type67-bg-img);
+  }
+
+ 
+.type68-bg-img{
+    background-image:var(--type68-bg-img);
+  }
+
+ 
+.type69-bg-img{
+    background-image:var(--type69-bg-img);
+  }
+
+ 
+.type70-bg-img{
+    background-image:var(--type70-bg-img);
+  }
+
+ 
+.type71-bg-img{
+    background-image:var(--type71-bg-img);
+  }
+
+ 
+.type72-bg-img{
+    background-image:var(--type72-bg-img);
+  }
+
+ 
+.type73-bg-img{
+    background-image:var(--type73-bg-img);
+  }
+
+ 
+.type74-bg-img{
+    background-image:var(--type74-bg-img);
+  }
+
+ 
+.type75-bg-img{
+    background-image:var(--type75-bg-img);
+  }
+
+ 
+.type76-bg-img{
+    background-image:var(--type76-bg-img);
+  }
+
+ 
+.type77-bg-img{
+    background-image:var(--type77-bg-img);
+  }
+
+ 
+.type78-bg-img{
+    background-image:var(--type78-bg-img);
+  }
+
+ 
+.type79-bg-img{
+    background-image:var(--type79-bg-img);
+  }
+
+ 
+.type80-bg-img{
+    background-image:var(--type80-bg-img);
+  }
+
+ 
+.type81-bg-img{
+    background-image:var(--type81-bg-img);
+  }
+
+ 
+.type82-bg-img{
+    background-image:var(--type82-bg-img);
+  }
+
+ 
+.type83-bg-img{
+    background-image:var(--type83-bg-img);
+  }
+
+ 
+.type84-bg-img{
+    background-image:var(--type84-bg-img);
+  }
+
+ 
+.type85-bg-img{
+    background-image:var(--type85-bg-img);
+  }
+
+ 
+.type86-bg-img{
+    background-image:var(--type86-bg-img);
+  }
+
+ 
+.type87-bg-img{
+    background-image:var(--type87-bg-img);
+  }
+
+ 
+.type88-bg-img{
+    background-image:var(--type88-bg-img);
+  }
+
+ 
+.type89-bg-img{
+    background-image:var(--type89-bg-img);
+  }
+
+ 
+.type90-bg-img{
+    background-image:var(--type90-bg-img);
+  }
+
+ 
+.type91-bg-img{
+    background-image:var(--type91-bg-img);
+  }
+
+ 
+.type92-bg-img{
+    background-image:var(--type92-bg-img);
+  }
+
+ 
+.type93-bg-img{
+    background-image:var(--type93-bg-img);
+  }
+
+ 
+.type94-bg-img{
+    background-image:var(--type94-bg-img);
+  }
+
+ 
+.type95-bg-img{
+    background-image:var(--type95-bg-img);
+  }
+
+ 
+.type96-bg-img{
+    background-image:var(--type96-bg-img);
+  }
+
+ 
+.type97-bg-img{
+    background-image:var(--type97-bg-img);
+  }
+
+ 
+.type98-bg-img{
+    background-image:var(--type98-bg-img);
+  }
+
+ 
+.type99-bg-img{
+    background-image:var(--type99-bg-img);
+  }
+
+ 
+.type100-bg-img{
+    background-image:var(--type100-bg-img);
+  }
+
+ 
+.type101-bg-img{
+    background-image:var(--type101-bg-img);
+  }
+
+ 
+.type102-bg-img{
+    background-image:var(--type102-bg-img);
+  }
+
+ 
+.type103-bg-img{
+    background-image:var(--type103-bg-img);
+  }
+
+ 
+.type104-bg-img{
+    background-image:var(--type104-bg-img);
+  }
+
+ 
+.type105-bg-img{
+    background-image:var(--type105-bg-img);
+  }
+
+ 
+.type106-bg-img{
+    background-image:var(--type106-bg-img);
+  }
+
+ 
+.type107-bg-img{
+    background-image:var(--type107-bg-img);
+  }
+
+ 
+.type108-bg-img{
+    background-image:var(--type108-bg-img);
+  }
+
+ 
+.type109-bg-img{
+    background-image:var(--type109-bg-img);
+  }
+
+ 
+.type110-bg-img{
+    background-image:var(--type110-bg-img);
+  }
+
+ 
+.type111-bg-img{
+    background-image:var(--type111-bg-img);
+  }
+
+ 
+.type112-bg-img{
+    background-image:var(--type112-bg-img);
+  }
+
+ 
+.type113-bg-img{
+    background-image:var(--type113-bg-img);
+  }
+
+ 
+.type114-bg-img{
+    background-image:var(--type114-bg-img);
+  }
+
+ 
+.type115-bg-img{
+    background-image:var(--type115-bg-img);
+  }
+
+ 
+.type116-bg-img{
+    background-image:var(--type116-bg-img);
+  }
+
+ 
+.type117-bg-img{
+    background-image:var(--type117-bg-img);
+  }
+
+ 
+.type118-bg-img{
+    background-image:var(--type118-bg-img);
+  }
+
+ 
+.type119-bg-img{
+    background-image:var(--type119-bg-img);
+  }
+
+ 
+.type120-bg-img{
+    background-image:var(--type120-bg-img);
+  }
+
+ 
+.type121-bg-img{
+    background-image:var(--type121-bg-img);
+  }
+
+ 
+.type122-bg-img{
+    background-image:var(--type122-bg-img);
+  }
+
+ 
+.type123-bg-img{
+    background-image:var(--type123-bg-img);
+  }
+
+ 
+.type124-bg-img{
+    background-image:var(--type124-bg-img);
+  }
+
+ 
+.type125-bg-img{
+    background-image:var(--type125-bg-img);
+  }
+
+ 
+.type126-bg-img{
+    background-image:var(--type126-bg-img);
+  }
+
+ 
+.type127-bg-img{
+    background-image:var(--type127-bg-img);
+  }
+
+ 
+.type128-bg-img{
+    background-image:var(--type128-bg-img);
+  }
+
+ 
+.type129-bg-img{
+    background-image:var(--type129-bg-img);
+  }
+
+ 
+.type130-bg-img{
+    background-image:var(--type130-bg-img);
+  }
+
+ 
+.type131-bg-img{
+    background-image:var(--type131-bg-img);
+  }
+
+ 
+.type132-bg-img{
+    background-image:var(--type132-bg-img);
+  }
+
+ 
+.type133-bg-img{
+    background-image:var(--type133-bg-img);
+  }
+
+ 
+.type134-bg-img{
+    background-image:var(--type134-bg-img);
+  }
+
+ 
+.type135-bg-img{
+    background-image:var(--type135-bg-img);
+  }
+
+ 
+.type136-bg-img{
+    background-image:var(--type136-bg-img);
+  }
+
+ 
+.type137-bg-img{
+    background-image:var(--type137-bg-img);
+  }
+
+ 
+.type138-bg-img{
+    background-image:var(--type138-bg-img);
+  }
+
+ 
+.type139-bg-img{
+    background-image:var(--type139-bg-img);
+  }
+
+ 
+.type140-bg-img{
+    background-image:var(--type140-bg-img);
+  }
+
+ 
+.type141-bg-img{
+    background-image:var(--type141-bg-img);
+  }
+
+ 
+.type142-bg-img{
+    background-image:var(--type142-bg-img);
+  }
+
+ 
+.type143-bg-img{
+    background-image:var(--type143-bg-img);
+  }
+
+ 
+.type144-bg-img{
+    background-image:var(--type144-bg-img);
+  }
+
+ 
+.type145-bg-img{
+    background-image:var(--type145-bg-img);
+  }
+
+ 
+.type146-bg-img{
+    background-image:var(--type146-bg-img);
+  }
+
+ 
+.type147-bg-img{
+    background-image:var(--type147-bg-img);
+  }
+
+ 
+.type148-bg-img{
+    background-image:var(--type148-bg-img);
+  }
+
+ 
+.type149-bg-img{
+    background-image:var(--type149-bg-img);
+  }
+
+ 
+.type150-bg-img{
+    background-image:var(--type150-bg-img);
+  }
+
+ 
+.type151-bg-img{
+    background-image:var(--type151-bg-img);
+  }
+
+ 
+.type152-bg-img{
+    background-image:var(--type152-bg-img);
+  }
+
+ 
+.type153-bg-img{
+    background-image:var(--type153-bg-img);
+  }
+
+ 
+.type154-bg-img{
+    background-image:var(--type154-bg-img);
+  }
+
+ 
+.type155-bg-img{
+    background-image:var(--type155-bg-img);
+  }
+
+ 
+.type156-bg-img{
+    background-image:var(--type156-bg-img);
+  }
+
+ 
+.type157-bg-img{
+    background-image:var(--type157-bg-img);
+  }
+
+ 
+.type158-bg-img{
+    background-image:var(--type158-bg-img);
+  }
+
+ 
+.type159-bg-img{
+    background-image:var(--type159-bg-img);
+  }
+
+ 
+.type160-bg-img{
+    background-image:var(--type160-bg-img);
+  }
+
+ 
+.type161-bg-img{
+    background-image:var(--type161-bg-img);
+  }
+
+ 
+.type162-bg-img{
+    background-image:var(--type162-bg-img);
+  }
+
+ 
+.type163-bg-img{
+    background-image:var(--type163-bg-img);
+  }
+
+ 
+.type164-bg-img{
+    background-image:var(--type164-bg-img);
+  }
+
+ 
+.type165-bg-img{
+    background-image:var(--type165-bg-img);
+  }
+
+ 
+.type166-bg-img{
+    background-image:var(--type166-bg-img);
+  }
+
+ 
+.type167-bg-img{
+    background-image:var(--type167-bg-img);
+  }
+
+ 
+.type168-bg-img{
+    background-image:var(--type168-bg-img);
+  }
+
+ 
+.type169-bg-img{
+    background-image:var(--type169-bg-img);
+  }
+
+ 
+.type170-bg-img{
+    background-image:var(--type170-bg-img);
+  }
+
+ 
+.type171-bg-img{
+    background-image:var(--type171-bg-img);
+  }
+
+ 
+.type172-bg-img{
+    background-image:var(--type172-bg-img);
+  }
+
+ 
+.type173-bg-img{
+    background-image:var(--type173-bg-img);
+  }
+
+ 
+.type174-bg-img{
+    background-image:var(--type174-bg-img);
+  }
+
+ 
+.type175-bg-img{
+    background-image:var(--type175-bg-img);
+  }
+
+ 
+.type176-bg-img{
+    background-image:var(--type176-bg-img);
+  }
+
+ 
+.type177-bg-img{
+    background-image:var(--type177-bg-img);
+  }
+
+ 
+.type178-bg-img{
+    background-image:var(--type178-bg-img);
+  }
+
+ 
+.type179-bg-img{
+    background-image:var(--type179-bg-img);
+  }
+
+ 
+.type180-bg-img{
+    background-image:var(--type180-bg-img);
+  }
+
+ 
+.type181-bg-img{
+    background-image:var(--type181-bg-img);
+  }
+
+ 
+.type182-bg-img{
+    background-image:var(--type182-bg-img);
+  }
+
+ 
+.type183-bg-img{
+    background-image:var(--type183-bg-img);
+  }
+
+ 
+.type184-bg-img{
+    background-image:var(--type184-bg-img);
+  }
+
+ 
+.type185-bg-img{
+    background-image:var(--type185-bg-img);
+  }
+
+ 
+.type186-bg-img{
+    background-image:var(--type186-bg-img);
+  }
+
+ 
+.type187-bg-img{
+    background-image:var(--type187-bg-img);
+  }
+
+ 
+.type188-bg-img{
+    background-image:var(--type188-bg-img);
+  }
+
+ 
+.type189-bg-img{
+    background-image:var(--type189-bg-img);
+  }
+
+ 
+.type190-bg-img{
+    background-image:var(--type190-bg-img);
+  }
+
+ 
+.type191-bg-img{
+    background-image:var(--type191-bg-img);
+  }
